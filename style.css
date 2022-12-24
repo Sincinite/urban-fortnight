@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@1,200&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 87em;
+    height: 48em;
+    margin-top: 6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(255, 235, 205, 0.486);
+    /* margin-left: 10em; */
+}
+.card{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* border: 2px solid black; */
+    width: 36em;
+    height: 27.23em;
+    background-color: white;
+    border-radius: 1em;
+}
+.writing{
+    margin-left: 3em;
+    /* display: flex;
+    flex-direction: column; */
+    /* align-items: flex-start; */
+}
+.image img{
+    height: 27.23em;
+    border-bottom-left-radius: 1em;
+    border-top-left-radius: 1em;
+    margin-top: 0.2em;
+}
+.price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -2em;
+}
+.span{
+    font-size: 2em;
+    margin-right: 1em;
+}
+.cart{
+    /* border: 2px solid red; */
+    border-radius: 0.4em;
+    background-color: rgba(16, 139, 98, 0.918);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 14em;
+    height: 2.859em;
+    margin-left: -1.02em;
+    margin-top: 1.71em;
+    margin-bottom: -2.5em;
+}
+#perfume{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.67em;
+    color: grey;
+    margin-left: -1.36em;
+    margin-top: -6em;
+}
+.head{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.98em;
+    margin-left: -1em;
+}
+.head h1{
+    margin-bottom: -0.92em;
+}
+.content{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.94em;
+    font-weight:10%;
+    color: gray;
+    margin-left: -1em;
+    margin-top: 3.4em;
+}
+.span{
+    color:  rgba(16, 139, 98, 0.918);
+    font-family: 'Lobster';
+}
+.price s{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+}
